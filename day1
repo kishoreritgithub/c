@@ -1,0 +1,36 @@
+DATA TYPES:
+
+#include<stdio.h>
+void main()
+{
+int a;
+a=1;
+printf("%d",a);
+float b;
+b=1.2;
+printf("\n%f",b);
+char c;
+printf("\n%s kishore");
+}
+
+ARATHMATIC OPERATIONS:
+
+#include <stdio.h>
+void main() 
+{
+    int a,b,c;
+    printf("Enter the first value:");
+    scanf("%d",&a);
+    printf("Enter the second value:");
+    scanf("%d",&b);
+    c=a+b;
+    printf("Addition:%d",c);
+    c=a-b;
+    printf("\nSubtraction:%d",c);
+    c=a*b;
+    printf("\nMultiplication:%d",c);
+    c=a/b;
+    printf("\nDivision:%d",c);
+    c=a%b;
+    printf("\nModulo Division:%d",c);
+}
